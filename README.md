@@ -7,12 +7,14 @@ mobile-first tap-to-score UI on your own network and writes every rating to a JS
 you own. No database, no Docker, no account, no build step — just the Python standard
 library.
 
+![siftrate demo — start server, rate items, save to JSON](docs/demo.gif)
+
 ```bash
 python3 siftrate.py --config examples/blog-post-drafts.json
 # open the printed URL — tap, score, done
 ```
 
-Or, once published to PyPI:
+Or straight from PyPI:
 
 ```bash
 pipx run siftrate --config myreview.json
