@@ -1,0 +1,36 @@
+{
+  "title": "Triage the photo dump",
+  "port": 8091,
+  "items": [
+    {
+      "id": "img-4821",
+      "body": "<img src=\"https://picsum.photos/seed/4821/640/420\" alt=\"beach at golden hour\">",
+      "meta": "IMG_4821.jpg · 4.2 MB · 09:14"
+    },
+    {
+      "id": "img-4822",
+      "body": "<img src=\"https://picsum.photos/seed/4822/640/420\" alt=\"street market\">",
+      "meta": "IMG_4822.jpg · 3.8 MB · 09:15 · slightly blurry"
+    },
+    {
+      "id": "img-4823",
+      "body": "<img src=\"https://picsum.photos/seed/4823/640/420\" alt=\"mountain trail\">",
+      "meta": "IMG_4823.jpg · 5.1 MB · 11:02"
+    },
+    {
+      "id": "img-4824",
+      "body": "<img src=\"https://picsum.photos/seed/4824/640/420\" alt=\"cafe interior\">",
+      "meta": "IMG_4824.jpg · 3.3 MB · 13:40 · duplicate of 4825?"
+    },
+    {
+      "id": "img-4825",
+      "body": "<img src=\"https://picsum.photos/seed/4825/640/420\" alt=\"cafe interior, second take\">",
+      "meta": "IMG_4825.jpg · 3.4 MB · 13:40"
+    }
+  ],
+  "labels": {
+    "flags": ["keep", "delete", "edit", "portfolio"],
+    "note": true
+  },
+  "output": "results/photo-triage.json"
+}

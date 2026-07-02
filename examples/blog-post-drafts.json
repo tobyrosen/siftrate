@@ -1,0 +1,46 @@
+{
+  "title": "Rate the blog post drafts",
+  "port": 8091,
+  "items": [
+    {
+      "id": "draft-01",
+      "title": "The Hidden Cost of Cheap Hosting",
+      "meta": "1,450 words · draft v2 · target: SMB owners",
+      "body": "Opens with a downtime horror story, then a clean TCO breakdown. Strong hook, but the middle sags where it lists provider specs."
+    },
+    {
+      "id": "draft-02",
+      "title": "How We Cut Our Build Times in Half",
+      "meta": "980 words · draft v1 · target: engineering leads",
+      "body": "Concrete before/after numbers and a clear method. Reads a little dry — could use one narrative thread to carry it."
+    },
+    {
+      "id": "draft-03",
+      "title": "Stop Writing Meeting Notes by Hand",
+      "meta": "1,200 words · draft v3 · target: ops managers",
+      "body": "Practical and well structured. The call to action is buried in the last paragraph and easy to miss."
+    },
+    {
+      "id": "draft-04",
+      "title": "A Field Guide to Boring Technology",
+      "meta": "2,100 words · draft v1 · target: CTOs",
+      "body": "Opinionated and fun, but long. Needs a trim and a sharper thesis up top."
+    },
+    {
+      "id": "draft-05",
+      "title": "Your Roadmap Is a Guess. Say So.",
+      "meta": "760 words · draft v2 · target: product managers",
+      "body": "Punchy and short. Might be too thin — could use one worked example to land the argument."
+    }
+  ],
+  "labels": {
+    "scale": {
+      "min": 1,
+      "max": 5,
+      "captions": { "1": "spike", "3": "revise", "5": "publish" }
+    },
+    "flags": ["needs edit", "great hook", "cut length"],
+    "note": true
+  },
+  "output": "results/blog-post-drafts.json"
+}

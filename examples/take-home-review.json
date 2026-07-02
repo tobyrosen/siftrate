@@ -1,0 +1,44 @@
+{
+  "title": "Score the take-home submissions",
+  "port": 8091,
+  "items": [
+    {
+      "id": "sub-01",
+      "title": "Submission 01 — CLI log parser",
+      "url": "https://example.com/submissions/01",
+      "meta": "Python · ~3h self-reported · tests included",
+      "body": "Clean structure and good test coverage. Missed the streaming requirement for large files."
+    },
+    {
+      "id": "sub-02",
+      "title": "Submission 02 — CLI log parser",
+      "url": "https://example.com/submissions/02",
+      "meta": "Go · ~2h self-reported · no tests",
+      "body": "Fast and idiomatic, handles streaming well. No tests at all, and the README is one line."
+    },
+    {
+      "id": "sub-03",
+      "title": "Submission 03 — CLI log parser",
+      "url": "https://example.com/submissions/03",
+      "meta": "Python · ~5h self-reported · tests included",
+      "body": "Over-engineered — a plugin system for a take-home. Works, but I'd worry about scope judgment on the job."
+    },
+    {
+      "id": "sub-04",
+      "title": "Submission 04 — CLI log parser",
+      "url": "https://example.com/submissions/04",
+      "meta": "Rust · ~4h self-reported · tests included",
+      "body": "Correct, well tested, thoughtful error messages. Slightly slow to read due to heavy abstraction."
+    }
+  ],
+  "labels": {
+    "scale": {
+      "min": 1,
+      "max": 5,
+      "captions": { "1": "no", "3": "maybe", "5": "strong yes" }
+    },
+    "flags": ["advance", "borderline", "reject"],
+    "note": true
+  },
+  "output": "results/take-home-review.json"
+}
